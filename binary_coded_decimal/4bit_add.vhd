@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity BCD is
+	port ( A0,A1,A2,A3,B0,B1,B2,B3: IN STD_LOGIC;
+			Y0,Y1,Y2,Y3,Y4 : OUT STD_LOGIC);
+end entity BCD;
+
+architecture behaviour of BCD is
+	signal y0,y1,y2,y3,y4,C1,C2,C3,C4 : STD_LOGIC;
+	component full_add is
+port(A, B, Cin: in std_logic; S, Cout: out std_logic);
+end component  full_add;
+begin
+	FULL_ADD1: full_add port map( A => A0 , B => B0 , Cin => 0, S => y0 , Cout => C1);
+	FULL_ADD2: full_add port map( A => A1 , B => B1 , Cin => C1 , S => y1 , Cout => C2);
+	FULL_ADD3: full_add port map( A => A2 , B => B2 , Cin => C2 , S => y2 , Cout => C3);
+	FULL_ADD4: full_add port map( A => A3 , B => B3 , Cin => C3 , S => y3 , Cout => y4);
+end behaviour;

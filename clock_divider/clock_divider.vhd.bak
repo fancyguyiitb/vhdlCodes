@@ -1,0 +1,62 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+entity clock_divider_2 is
+port(clk_50,switch,resetn:in std_logic;
+I: out std_logic_vector (7 downto 0));
+end entity clock_divider_2;
+
+architecture bhv of clock_divider_2 is
+signal count0,count1:integer:=1;
+signal clk_out:std_logic:='1';
+signal I1t:std_logic_vector(7 downto 0) := "00001111";
+
+begin
+clk_proc: process(clk_50,resetn)
+begin
+
+if(clk_50='1' and clk_50'event) then
+	count0<= count0+1;
+end if;
+if(resetn='1') then
+	count0<=1;
+	count1<=1;
+end if;
+if(count0=25000000) then
+	clk_out<= not clk_out;
+	count0<=1;
+	count1<= count1+1;
+end if;
+if(count1=50) then
+	count1 <=1;
+end if;
+end process;
+
+
+
+
+sw_process: process (switch)
+begin
+
+if(switch = '0') then
+
+
+
+
+for i in 7 downto 0 loop
+	I1t(i)<= not I1t(i);
+end loop;
+end if;
+
+
+I<=I1t;
+
+if(switch = '1') then
+
+I<= std_logic_vector(to_unsigned(count1, 8));
+end if;
+end process;
+
+
+
+end architecture bhv;

@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/simulation/modelsim
+Ed_ff
+Z1 w1699346397
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/D_FF.vhd
+Z5 FC:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/D_FF.vhd
+l0
+L6
+VYn<`di]2baM?G2QE@1]Vc1
+!s100 mRz7@21P2I=hM6?nYn[Qo2
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1699350978
+!i10b 1
+Z8 !s108 1699350978.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/D_FF.vhd|
+Z10 !s107 C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/D_FF.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+DEx4 work 4 d_ff 0 22 Yn<`di]2baM?G2QE@1]Vc1
+l21
+L11
+V1Wa9S2eoG[K`AQfg3I`VG1
+!s100 3z`79i`;_Sj0DDh=gRKX70
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ejk_ff
+R1
+R2
+R3
+R0
+Z13 8C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/JK_FF.vhd
+Z14 FC:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/JK_FF.vhd
+l0
+L5
+VEbGlQbV0O:T:GEGo[VZiz3
+!s100 3RmQzkNIH4bHEV5zc6PV00
+R6
+31
+R7
+!i10b 1
+R8
+Z15 !s90 -reportprogress|300|-93|-work|work|C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/JK_FF.vhd|
+Z16 !s107 C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/JK_FF.vhd|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+DEx4 work 5 jk_ff 0 22 EbGlQbV0O:T:GEGo[VZiz3
+l13
+L11
+VTYbE=GSYZM?:GjDMW?S1N1
+!s100 IMcJ59d89c@LJ1>1[4D;K3
+R6
+31
+R7
+!i10b 1
+R8
+R15
+R16
+!i113 1
+R11
+R12
+Etestbench
+R1
+R2
+R3
+R0
+Z17 8C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/Testbench.vhd
+Z18 FC:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/Testbench.vhd
+l0
+L5
+VLoK>lhZ<jIjh8hXGkDcd90
+!s100 ?[3Pc3kFf@4RF:YFCFFGH1
+R6
+31
+R7
+!i10b 1
+R8
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/Testbench.vhd|
+Z20 !s107 C:/Users/Sarthak Niranjan/Downloads/D_FF (1)/D_FF/Testbench.vhd|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+DEx4 work 9 testbench 0 22 LoK>lhZ<jIjh8hXGkDcd90
+l24
+L8
+VPUPOVa:ZS[O<^4RDb?Rk>0
+!s100 4X^[`DkmPbl6=NWV^nK=13
+R6
+31
+R7
+!i10b 1
+R8
+R19
+R20
+!i113 1
+R11
+R12

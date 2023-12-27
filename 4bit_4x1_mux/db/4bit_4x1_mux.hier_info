@@ -1,0 +1,112 @@
+|DUT
+input_vector[0] => fourbit_mux4x1:add_instance.s[0]
+input_vector[1] => fourbit_mux4x1:add_instance.s[1]
+input_vector[2] => fourbit_mux4x1:add_instance.a[0]
+input_vector[3] => fourbit_mux4x1:add_instance.a[1]
+input_vector[4] => fourbit_mux4x1:add_instance.a[2]
+input_vector[5] => fourbit_mux4x1:add_instance.a[3]
+input_vector[6] => fourbit_mux4x1:add_instance.b[0]
+input_vector[7] => fourbit_mux4x1:add_instance.b[1]
+input_vector[8] => fourbit_mux4x1:add_instance.b[2]
+input_vector[9] => fourbit_mux4x1:add_instance.b[3]
+input_vector[10] => fourbit_mux4x1:add_instance.c[0]
+input_vector[11] => fourbit_mux4x1:add_instance.c[1]
+input_vector[12] => fourbit_mux4x1:add_instance.c[2]
+input_vector[13] => fourbit_mux4x1:add_instance.c[3]
+input_vector[14] => fourbit_mux4x1:add_instance.d[0]
+input_vector[15] => fourbit_mux4x1:add_instance.d[1]
+input_vector[16] => fourbit_mux4x1:add_instance.d[2]
+input_vector[17] => fourbit_mux4x1:add_instance.d[3]
+output_vector[0] <= fourbit_mux4x1:add_instance.Y[0]
+output_vector[1] <= fourbit_mux4x1:add_instance.Y[1]
+output_vector[2] <= fourbit_mux4x1:add_instance.Y[2]
+output_vector[3] <= fourbit_mux4x1:add_instance.Y[3]
+
+
+|DUT|fourbit_mux4x1:add_instance
+a[0] => mux4x1:MUX1.I1
+a[1] => mux4x1:MUX2.I1
+a[2] => mux4x1:MUX3.I1
+a[3] => mux4x1:MUX4.I1
+b[0] => mux4x1:MUX1.I2
+b[1] => mux4x1:MUX2.I2
+b[2] => mux4x1:MUX3.I2
+b[3] => mux4x1:MUX4.I2
+c[0] => mux4x1:MUX1.I3
+c[1] => mux4x1:MUX2.I3
+c[2] => mux4x1:MUX3.I3
+c[3] => mux4x1:MUX4.I3
+d[0] => mux4x1:MUX1.I4
+d[1] => mux4x1:MUX2.I4
+d[2] => mux4x1:MUX3.I4
+d[3] => mux4x1:MUX4.I4
+s[0] => mux4x1:MUX1.S1
+s[0] => mux4x1:MUX2.S1
+s[0] => mux4x1:MUX3.S1
+s[0] => mux4x1:MUX4.S1
+s[1] => mux4x1:MUX1.S2
+s[1] => mux4x1:MUX2.S2
+s[1] => mux4x1:MUX3.S2
+s[1] => mux4x1:MUX4.S2
+Y[0] <= mux4x1:MUX1.Y
+Y[1] <= mux4x1:MUX2.Y
+Y[2] <= mux4x1:MUX3.Y
+Y[3] <= mux4x1:MUX4.Y
+
+
+|DUT|fourbit_mux4x1:add_instance|mux4x1:MUX1
+I1 => Y.IN0
+I2 => Y.IN0
+I3 => Y.IN0
+I4 => Y.IN0
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S2 => Y.IN1
+S2 => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|fourbit_mux4x1:add_instance|mux4x1:MUX2
+I1 => Y.IN0
+I2 => Y.IN0
+I3 => Y.IN0
+I4 => Y.IN0
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S2 => Y.IN1
+S2 => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|fourbit_mux4x1:add_instance|mux4x1:MUX3
+I1 => Y.IN0
+I2 => Y.IN0
+I3 => Y.IN0
+I4 => Y.IN0
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S2 => Y.IN1
+S2 => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|fourbit_mux4x1:add_instance|mux4x1:MUX4
+I1 => Y.IN0
+I2 => Y.IN0
+I3 => Y.IN0
+I4 => Y.IN0
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S1 => Y.IN1
+S2 => Y.IN1
+S2 => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

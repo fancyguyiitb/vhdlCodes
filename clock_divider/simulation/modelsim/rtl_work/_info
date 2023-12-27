@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/College Notes/2nd Year/EE214/lab8/simulation/modelsim
+Eclock_divider
+Z1 w1697191766
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8D:/Documents/College Notes/2nd Year/EE214/lab8/clock_divider.vhd
+Z5 FD:/Documents/College Notes/2nd Year/EE214/lab8/clock_divider.vhd
+l0
+L4
+VO<QHkmm3SJ5ah;lOAMH>=3
+!s100 hVT2DUEAU]b;A4oN@QUWC3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1697192676
+!i10b 1
+Z8 !s108 1697192676.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/Documents/College Notes/2nd Year/EE214/lab8/clock_divider.vhd|
+Z10 !s107 D:/Documents/College Notes/2nd Year/EE214/lab8/clock_divider.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 13 clock_divider 0 22 O<QHkmm3SJ5ah;lOAMH>=3
+l13
+L9
+V;SNe:`8VNLBzVUAhK?E5o3
+!s100 0SZRozN`>e9k=OH5KiI:Q2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z13 w1697192477
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8D:/Documents/College Notes/2nd Year/EE214/lab8/Testbench.vhdl
+Z16 FD:/Documents/College Notes/2nd Year/EE214/lab8/Testbench.vhdl
+l0
+L5
+V0]9o^aJ0^Ff8bbd2:Hhnf0
+!s100 TeEZE?<gfB?Sb8jRL1<mm0
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Documents/College Notes/2nd Year/EE214/lab8/Testbench.vhdl|
+Z18 !s107 D:/Documents/College Notes/2nd Year/EE214/lab8/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R14
+R2
+R3
+DEx4 work 9 testbench 0 22 0]9o^aJ0^Ff8bbd2:Hhnf0
+l15
+L7
+VT7G>7YGiTN[Oh;IZG]5lH3
+!s100 O4fbM`9QjZB413AzOZH<G2
+R6
+31
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

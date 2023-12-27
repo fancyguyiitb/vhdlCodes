@@ -1,0 +1,45 @@
+|DUT
+input_vector[0] => mux4x1:add_instance.S1
+input_vector[1] => mux4x1:add_instance.S2
+input_vector[2] => mux4x1:add_instance.I1
+input_vector[3] => mux4x1:add_instance.I2
+input_vector[4] => mux4x1:add_instance.I3
+input_vector[5] => mux4x1:add_instance.I4
+output_vector[0] << mux4x1:add_instance.Y
+
+
+|DUT|mux4x1:add_instance
+I1 => mux2x1:MUX2x1_2.I0
+I2 => mux2x1:MUX2x1_2.I1
+I3 => mux2x1:MUX2x1_1.I0
+I4 => mux2x1:MUX2x1_1.I1
+S1 => mux2x1:MUX2x1_1.S
+S1 => mux2x1:MUX2x1_2.S
+S2 => mux2x1:MUX2x1_3.S
+Y <= mux2x1:MUX2x1_3.Y
+
+
+|DUT|mux4x1:add_instance|mux2x1:MUX2x1_1
+I0 => Y.IN0
+I1 => Y.IN0
+S => Y.IN1
+S => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|mux4x1:add_instance|mux2x1:MUX2x1_2
+I0 => Y.IN0
+I1 => Y.IN0
+S => Y.IN1
+S => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|mux4x1:add_instance|mux2x1:MUX2x1_3
+I0 => Y.IN0
+I1 => Y.IN0
+S => Y.IN1
+S => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

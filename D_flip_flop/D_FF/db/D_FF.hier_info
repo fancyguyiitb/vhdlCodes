@@ -1,0 +1,32 @@
+|D_FF
+D => JK_FF:Jk1.J
+D => JK_FF:Jk1.K
+En => JK_FF:Jk1.En
+reset => JK_FF:Jk1.reset
+pre => JK_FF:Jk1.pre
+clk => JK_FF:Jk1.clk
+Q << JK_FF:Jk1.Q
+Qbar << JK_FF:Jk1.Qbar
+
+
+|D_FF|JK_FF:Jk1
+J => process_0.IN1
+J => process_0.IN0
+J => process_0.IN1
+J => process_0.IN1
+K => process_0.IN1
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qbar <= Qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => Qbar~reg0.CLK
+clk => Q~reg0.CLK
+En => Q.IN0
+En => Q.IN1
+En => Qbar.IN1
+En => Q~reg0.ENA
+reset => Qbar.IN0
+reset => Q.IN0
+pre => Qbar.IN1
+pre => Q.IN1
+pre => Q.IN1
+
+

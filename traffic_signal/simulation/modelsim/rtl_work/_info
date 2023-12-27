@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/College Notes/2nd Year/EE214/lab9/simulation/modelsim
+Eone_hz_clock
+Z1 w1697797811
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Documents/College Notes/2nd Year/EE214/lab9/one_hz_clock.vhd
+Z6 FD:/Documents/College Notes/2nd Year/EE214/lab9/one_hz_clock.vhd
+l0
+L5
+VFQcDkPXFWzUCn8IY:JNiJ0
+!s100 iHFgmFZ`[5jn6AfcEMWU82
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1697798405
+!i10b 1
+Z9 !s108 1697798405.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/Documents/College Notes/2nd Year/EE214/lab9/one_hz_clock.vhd|
+Z11 !s107 D:/Documents/College Notes/2nd Year/EE214/lab9/one_hz_clock.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 12 one_hz_clock 0 22 FQcDkPXFWzUCn8IY:JNiJ0
+l13
+L9
+VbdZ7<_Snn_E<3lbCXh5zK3
+!s100 bShdGUO5DWo[8ZmfLd;5I3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench
+Z14 w1697798238
+R2
+R3
+R4
+R0
+Z15 8D:/Documents/College Notes/2nd Year/EE214/lab9/Testbench.vhd
+Z16 FD:/Documents/College Notes/2nd Year/EE214/lab9/Testbench.vhd
+l0
+L5
+V0]9o^aJ0^Ff8bbd2:Hhnf0
+!s100 TeEZE?<gfB?Sb8jRL1<mm0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/Documents/College Notes/2nd Year/EE214/lab9/Testbench.vhd|
+Z18 !s107 D:/Documents/College Notes/2nd Year/EE214/lab9/Testbench.vhd|
+!i113 1
+R12
+R13
+Atb_behavior
+R2
+R3
+R4
+DEx4 work 9 testbench 0 22 0]9o^aJ0^Ff8bbd2:Hhnf0
+l16
+L7
+VSh8T24607lUY[ceTc>fS?2
+!s100 Z7cjH<46i5@Q6J?QkM9[A2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etraffic
+Z19 w1697797988
+R2
+R3
+R4
+R0
+Z20 8D:/Documents/College Notes/2nd Year/EE214/lab9/traffic.vhd
+Z21 FD:/Documents/College Notes/2nd Year/EE214/lab9/traffic.vhd
+l0
+L5
+VG?9O6:g5:gWeW]mRkbM:43
+!s100 _7SGLXmcU2zMAX62YB08g1
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/Documents/College Notes/2nd Year/EE214/lab9/traffic.vhd|
+Z23 !s107 D:/Documents/College Notes/2nd Year/EE214/lab9/traffic.vhd|
+!i113 1
+R12
+R13
+Alight
+R2
+R3
+R4
+DEx4 work 7 traffic 0 22 G?9O6:g5:gWeW]mRkbM:43
+l17
+L10
+V=DQL6ho2RHG1jYjgFJ?D]2
+!s100 kJ^ITh=?XD8W28e;^lYm:2
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
