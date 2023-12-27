@@ -1,0 +1,73 @@
+|DUT
+input_vector[0] => full_add:add_instance.Cin
+input_vector[1] => full_add:add_instance.B
+input_vector[2] => full_add:add_instance.A
+output_vector[0] <= full_add:add_instance.Cout
+output_vector[1] <= full_add:add_instance.S
+
+
+|DUT|full_add:add_instance
+A => NOR_2:NOR1.A
+A => NOR_2:NOR2.B
+B => NOR_2:NOR1.B
+B => NOR_2:NOR3.B
+Cin => NOR_2:NOR5.B
+Cin => NOR_2:NOR7.B
+S <= NOR_2:NOR8.Y
+Cout <= NOR_2:NOR9.Y
+
+
+|DUT|full_add:add_instance|NOR_2:NOR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR6
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR8
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR7
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|full_add:add_instance|NOR_2:NOR9
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

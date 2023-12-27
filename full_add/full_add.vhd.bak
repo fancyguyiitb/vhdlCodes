@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity full_add is
+port(A, B, C: in std_logic; Y1, Y2: out std_logic);
+end entity  full_add;
+
+         
+architecture struct of full_sub is
+signal x1, x2, x3, x4, x5,x6,x7,x8,x9,x10: std_logic;
+begin
+NOR1 : NOR_2 port map(A => A, B => B, Y => x1);
+NOR2 : NOR_2 port map(A => A, B => x1, Y => x2);
+NOR3 : NOR_2 port map(A => x1, B => B, Y => x3);
+NOR4 : NOR_2 port map(A => x2, B => x3, Y => x4);
+NOR5 : NOR_2 port map(A => x4, B => x4, Y => x5);
+NOR6 : NOR_2 port map(A => x5, B => C, Y => x6);
+NOR8 : NOR_2 port map(A => x6, B => C, Y => x7);
+NOR7 : NOR_2 port map(A => x5, B => x6, Y => x8);
+NOR9 : NOR_2 port map(A => x8, B => x2, Y => x10);
+NOR10 : NOR_2 port map(A => x10, B => x10, Y => Y1);
+NOR11 : NOR_2 port map(A => x9, B => x9, Y => Y2);
+end architecture struct;
